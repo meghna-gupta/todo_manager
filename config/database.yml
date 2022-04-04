@@ -7,8 +7,8 @@ development:
   <<: *default
   host: localhost
   user: mgupta
-  password: 
-  database: postgres
+  password:
+  database: template1
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
