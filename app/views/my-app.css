@@ -1,0 +1,86 @@
+body {
+ font-family: sans-serif;
+ max-width: 600px;
+ margin-top: 32px ;
+ margin-bottom: 0;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.SplashImage {
+  max-width: 300px;
+}
+
+.TodoPageMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoPage-title {
+  font-size: 48px;
+  line-height: 1.6;
+  color: darkred;
+}
+
+.TodoSection-title {
+  font-size: 34px;
+  line-height: 1.4;
+  color: #453c52;
+}
+
+.TodoSection-todo {
+  font-size: 20px;
+  line-height: 1.2;
+  margin-left: 32px;
+  color: #453c52;
+}
+
+.TodoSection {
+  margin-bottom: 32px;
+  margin-left: 32px;
+  /* background-color: gray; */
+  /* color: white; */
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  background: antiquewhite;
+}
+
+/* Typography Scale
+48px
+34px
+24px
+20px
+16px*/
+
+/* Line Height
+gap between two lines */
+
+/* Padding
+only setting padding will set padding from all 4 sides */
+
+/* margin
+margin: 0 means margin-top: 0; and margin-bottom: 0
+margin: auto means margin-left: auto and margin-right: auto
+when we give 2 values to margin, that implies
+first one is for vertical (top and bottom) and
+second one is for horizontal (left and right) */
+
+/* Total element width
+width + left padding + right padding + left border + right border + left margin + right margin
+
+Total element height
+height + top padding + bottom padding + top border + bottom border + top margin + bottom margin */
+
+/* CSS Specificity */
+
+/* Class name always take preference over html tag
+Lower class name will take preference over upper class name
+more specific selector : tag + class => this will overwrite all other properties*/
+
+/* BEM CSS Model */
+/* Single class for each tag; no need to remember rules */
+
+/* Rows - display
+Columns - CSS Flexboxes */
