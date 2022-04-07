@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   # get "todos", to: "todos#index"
   # get "todos/:id", to: "todos#show"
   get "todo", to: "todos#basic"
-  get "todo-manager", to: "todos#manager"
-  get "todo-manager/:id", to: "todos#managerShow"
+  get "todo_manager", to: "todos#manager"
+  get "todo_manager/:id", to: "todos#managerShow"
+  post "todo_manager", to: "todos#managerCreate"
 end
 
 # First, look in public folder
@@ -28,3 +29,23 @@ end
 #  - call the appropriate model method
 #  - render the correct view
 # move logic into the service part, for large applications
+
+# create
+# input - form
+
+# read - 2 urls
+# list of todos
+# single todo
+
+# update/edit
+
+# admin should be able to view all todos
+
+# todo subject, todo desc, created, updated at
+# who added todo?
+
+# draft saved, in progress state, (diff status) 1-> open, 2-> in progress, (enums) states of todo
+
+# archiving the todo, hard/soft delete of todo
+
+# can use mysql

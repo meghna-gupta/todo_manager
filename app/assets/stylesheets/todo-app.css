@@ -96,6 +96,19 @@ body {
   margin-right: 8px;
 }
 
+.TodoItem-checkboxChecked {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  text-decoration: overline;
+}
+
+.TodoItem-dueDate {
+  font-size: 10px;
+  color: rgb(103, 89, 123);
+  margin-left: 10px;
+}
+
 .TodoItem-overdueLabel {
   margin-left: 10px;
   color: #c53030;

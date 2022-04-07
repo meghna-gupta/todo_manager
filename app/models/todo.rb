@@ -39,6 +39,10 @@ class Todo < ActiveRecord::Base
     )
   end
 
+  def self.completed
+    all.where(completed: true)
+  end
+
   def self.mark_as_complete!(id)
     todo = find(id)
     todo.completed = true
